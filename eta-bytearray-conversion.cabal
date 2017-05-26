@@ -1,0 +1,15 @@
+name:                eta-bytearray-conversion
+version:             0.1.0.0
+author:              Jonathan Knowles
+maintainer:          mail@jonathanknowles.net
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+executable eta-bytearray-conversion
+    main-is:             Main.hs
+    build-depends:       base >=4.8 && <4.9,
+                         bytestring
+    hs-source-dirs:      source
+    default-language:    Haskell2010
+
